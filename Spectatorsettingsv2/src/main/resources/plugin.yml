@@ -13,10 +13,12 @@ commands:
 
   Speed5:
     description: increase your speed to 5
-    usage: /<command>    usage: /<command>
+    usage: /<command>
 
+  permissions:
     SpectatorSettings.Admin:
         description: admin
+        default: op
     SpectatorSettings.Spectator:
         description: spectator
         default: op
