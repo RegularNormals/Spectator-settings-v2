@@ -1,0 +1,16 @@
+name: Spectatorsettings
+version: '${project.version}'
+main: me.regularnormals.spectatorsettings.Main
+api-version: 1.18
+commands:
+  Fly:
+    description: Fly
+    usage: /<command>
+
+  SpeedDefault:
+    description: Sets your speed back to default
+    usage: /<command>
+
+  Speed5:
+    description: increase your speed to 5
+    usage: /<command>
